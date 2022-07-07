@@ -2,12 +2,12 @@ import React from 'react';
 
 const Banner = () => {
     return (
-        <div className='w-full   lg:py-8   ' style={{ background: 'radial-gradient(50% 50% at 50% 50%, #5F72BE 0%, #9921E8 100%)' }} >
+        <div className='w-full lg:py-8 ' style={{ background: 'radial-gradient(50% 50% at 50% 50%, #5F72BE 0%, #9921E8 100%)' }} >
             <div className='lg:flex lg:px-20 '>
-                <div className='flex-1'>
+                <div className='flex-1 '>
                     <div>
-                        <h1 className='lg:text-[14px] bg-white rounded-xl text-center text-[#9921E8]'>#MOST TRUSTED CERTIFICATIONS BY THE INDUSTRY</h1>
-                        <p className='my-6 text-white text-[36px] font-bold'>Unleash Your SCRUM Skills, Grab More Attention To Résumé</p>
+                        <h1 className='lg:text-[14px] bg-white rounded-xl text-center inline-block p-1 px-2 text-[#9921E8]'>#MOST TRUSTED CERTIFICATIONS BY THE INDUSTRY</h1>
+                        <p className='my-6 text-white text-[36px] font-bold'>Unleash Your SCRUM Skills, <br /> Grab More Attention To Résumé</p>
                         <a className='btn btn-sm ml-1 px-8 bg-transparent border-white rounded-3xl' href="https://linkedin.com">ENROLL NOW</a>
                         <div className='text-white p-20 relative'>
                             <p className='pl-5'>10% OFF on all courses* | Offer Valid For</p>
@@ -38,7 +38,7 @@ const Banner = () => {
 
 
                 </div>
-                <img className='w-[460px]  h-[460px]  object-cover z-40 block absolute left-[970px] top-[230px]  rounded-full ' src="https://i.ibb.co/C7KNn8v/Ellipse-1.png" alt="frame" />
+                <img className='w-[460px]  h-[460px]  object-cover z-40 block absolute left-[970px] top-[240px]  rounded-full ' src="https://i.ibb.co/C7KNn8v/Ellipse-1.png" alt="frame" />
             </div>
 
         </div>
