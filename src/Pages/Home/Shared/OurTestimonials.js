@@ -2,7 +2,7 @@ import React from 'react';
 
 const OurTestimonials = () => {
     return (
-        <section className='lg:px-20 mt-20'>
+        <section id='blog' className='lg:px-20 mt-20'>
             <div className='flex items-center gap-16'>
                 <h2 className='font-bold text-[#5F72BE]'>OUR TESTIMONIALS</h2>
                 <div className='border-b-2 w-[300px]  border-[#5F72BE]'></div>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Courses = () => {
     return (
-        <section className='my-20 lg:px-20'>
+        <section id='courses' className='my-20 lg:px-20'>
             <h2 className='text-[18px] font-bold'>A broad range of courses</h2>
             <p className='font-semibold'>Choose from 100+ online video courses with new additions published every month</p>
             <div className='pt-16 flex gap-6 items-center'>

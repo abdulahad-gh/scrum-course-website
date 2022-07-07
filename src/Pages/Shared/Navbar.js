@@ -3,9 +3,9 @@ import React from 'react';
 const Navbar = () => {
     const menuItems = <>
         <li><a href='/'>HOME</a></li>
-        <li><a>ABOUT</a></li>
-        <li><a>COURSES</a></li>
-        <li><a>BLOGS</a></li>
+        <li><a href='#about'>ABOUT</a></li>
+        <li><a href='#courses'>COURSES</a></li>
+        <li><a href='#blog'>BLOGS</a></li>
 
 
     </>

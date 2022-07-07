@@ -2,7 +2,7 @@ import React from 'react';
 
 const OurLearningProcess = () => {
     return (
-        <div className='lg:py-8'>
+        <section id='about' className='lg:py-8'>
             <div className='lg:flex lg:px-20 items-center'>
                 <div className='flex-1 '>
                     <div>
@@ -65,7 +65,7 @@ const OurLearningProcess = () => {
 
             </div>
 
-        </div>
+        </section>
 
 
 
