@@ -2,7 +2,7 @@ import React from 'react';
 
 const Banner = () => {
     return (
-        <div className='w-full lg:py-8 ' style={{ background: 'radial-gradient(50% 50% at 50% 50%, #5F72BE 0%, #9921E8 100%)' }} >
+        <div className='lg:py-8 h-[560px] ' style={{ background: 'radial-gradient(50% 50% at 50% 50%, #5F72BE 0%, #9921E8 100%)' }} >
             <div className='lg:flex lg:px-20 '>
                 <div className='flex-1 '>
                     <div>
