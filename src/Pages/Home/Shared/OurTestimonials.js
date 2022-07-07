@@ -2,7 +2,7 @@ import React from 'react';
 
 const OurTestimonials = () => {
     return (
-        <section className='lg:px-20'>
+        <section className='lg:px-20 mt-20'>
             <div className='flex items-center gap-16'>
                 <h2 className='font-bold text-[#5F72BE]'>OUR TESTIMONIALS</h2>
                 <div className='border-b-2 w-[300px]  border-[#5F72BE]'></div>
@@ -38,6 +38,14 @@ const OurTestimonials = () => {
                     </div>
                 </div>
                 <span><img className='w-8 h-5' src="https://i.ibb.co/tcQBWzy/left.png" alt="" /></span>
+            </div>
+            <div className='bg-[#5F72BE] px-10 py-6 rounded-lg flex justify-between items-center mt-20'>
+                <div className='text-white'>
+                    <h2>Email Us</h2>
+                    <p>Connect with us in case of any queries, complaints or feedbacks...</p>
+                </div>
+                <button className='btn bg-[#2D81F7] px-20 border-none'>CONTACT US</button>
+
             </div>
 
         </section>
