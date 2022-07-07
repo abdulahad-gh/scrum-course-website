@@ -3,7 +3,7 @@ import React from 'react';
 const OurLearningProcess = () => {
     return (
         <div className='lg:py-8'>
-            <div className='lg:flex lg:px-20 '>
+            <div className='lg:flex lg:px-20 items-center'>
                 <div className='flex-1 '>
                     <div>
                         <h1 className='lg:text-[32px] font-bold  text-[#9921E8]'>Start learning with <br /> us right now!</h1>
