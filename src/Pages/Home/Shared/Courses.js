@@ -5,7 +5,7 @@ const Courses = () => {
         <section className='my-20 lg:px-20'>
             <h2 className='text-[18px] font-bold'>A broad range of courses</h2>
             <p className='font-semibold'>Choose from 100+ online video courses with new additions published every month</p>
-            <div className='pt-16 flex gap-6'>
+            <div className='pt-16 flex gap-6 items-center'>
                 <div className='w-[282px]'>
                     <img src="https://i.ibb.co/hYz1X1Y/Rectangle-5.png" alt="" />
                     <div className='p-[27px] bg-[#D9D9D940]'>
@@ -110,6 +110,7 @@ const Courses = () => {
                         <a className='btn btn-sm ml-1 px-8 bg-transparent mt-2 text-[#5F72BE] border-[#5F72BE] rounded-3xl' href="https://linkedin.com">ENROLL NOW</a>
                     </div>
                 </div>
+                <a href="#next-course"><img className='h-[23px]' src="https://i.ibb.co/jyXKYVL/Vector-3.png" alt="" /></a>
             </div>
         </section>
     );
