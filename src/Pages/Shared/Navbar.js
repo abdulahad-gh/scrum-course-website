@@ -10,7 +10,7 @@ const Navbar = () => {
 
     </>
     return (
-        <div style={{ background: 'radial-gradient(50% 50% at 50% 50%, #5F72BE 0%, #9921E8 100%)' }} class="navbar  flex flex-row-reverse lg:flex-row lg:px-20 text-white">
+        <div style={{ background: 'radial-gradient(0% 50% at 0% 0%, #5F72BE 0%, #9921E8 100%)' }} class="navbar  flex flex-row-reverse lg:flex-row lg:px-20 text-white  ">
             <div class="navbar-start">
                 <div class="dropdown">
                     <label tabindex="0" class="btn btn-ghost lg:hidden">
